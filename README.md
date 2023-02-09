@@ -1,6 +1,6 @@
 Bem vindo à minha apresentação sobre a matéria de front-end ✨✨
 
-Ola  meu nome é Gustavo! 👍
+Ola  meu nome é Gustavo Comaretto! 👍
 Sou um estudante do colégio CEEP Pedro Boaretto Neto.
 no colégio eu faço o curso do desenvolvimento de sistemas.
 atualmente estou no 2º ano do ensino médio.

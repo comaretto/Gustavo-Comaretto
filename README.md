@@ -1,4 +1,6 @@
-#Bem vindo à minha apresentação sobre a matéria de front-end ✨✨
+#Apresentação front-end - Gustavo Comarett 👍
+
+Bem vindo à minha apresentação sobre a matéria de front-end ✨✨
 
 Ola  meu nome é Gustavo Comaretto! 👍
 Sou um estudante do colégio CEEP Pedro Boaretto Neto.

@@ -1,4 +1,4 @@
-#Apresentação front-end - Gustavo Comarett 👍
+#Front-end 👍
 
 Bem vindo à minha apresentação sobre a matéria de front-end ✨✨
 

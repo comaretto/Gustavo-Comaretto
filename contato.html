@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>contato</title>
     <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Contato</title>
 </head>
 <body>
     <header> 
         <img id="logo" src="comaretto.png">
         <h1 class="titulo-principal">Produtos de cabelo</h1>
 
-     </header>
+     <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="produtos.html">PRODUTOS</a></li>
+                <li><a href="contato.html">CONTATO</li>
+            </ul>
+     </nav>
+
+    </header>
 
     <main> 
         <form>
-            <label for="nomesobrenome">Nome e Sobrenome </label>
-            <input type="text" name="nome" id="nomesobrenome"
-            class="input-padrao" placeholder="Seu nome e sobrenome" required>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" name="nome" id="nomesobrenome" class="input-padrao"
+            placeholder="Seu nome e sobrenome" required> <br>
 
             <label for="email">Email</label>
-            <input type="email" name="email" id="email"
-            class="input-padrao" placeholder="seuemail@dominio.com" required>
-
+            <input type="email" name="email" id="email" class="input-padrao" 
+            placeholder="seuemail@dominio.com" requuired><br>
 
             <label for="telefone">Telefone</label>
-            <input type="tel" name="telefone" id="telefone"
-            class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+            <input type="tel" name="telefone" id="telefone" class="input-padrao" 
+            placeholder="(XX)XXXXX-XXXX" required><br>
 
             <label for="mensagem">Mensagem</label>
             <textarea cols="70" rows="10" id="mensagem"

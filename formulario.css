@@ -1,6 +1,39 @@
 body{
-    background-image: linear-gradient(to right, rgb(57, 7, 99), rgb(78, 125, 196));
+    background-color: rgb(34, 32, 32);
+}
+header{
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(17, 84, 184));
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+#logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    align-items: 'center';
+    border: 20px;
+    border-bottom: 20px;
+}
+.titulo-principal{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 32%;
+    left: 40%;
+    transform: translate(-170%, -520%);
+    font-size: 45px;
+    text-shadow: 5px;
+}
+a{
+    color:rgb(255, 255, 255);
+    font-size: 32px;
+    transform: translate(90%, -10%);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
 }
 
 .box{
@@ -16,14 +49,14 @@ body{
 }
 
 fieldset{
-    border: 3px solid rgb(191, 133, 230);
+    border: 3px solid rgb(17, 84, 184);
 }
 
 legend{
-    border: 1px solid rgb(154, 121, 245);
+    border: 1px solid  rgb(17, 84, 184);
     padding: 10px;
     text-align: center;
-    background-color: rgb(116, 48, 172);
+    background-color: rgb(17, 84, 184);
     border-radius: 8px;
 }
 
@@ -71,11 +104,11 @@ color: rgb(255, 255, 255);
     border-radius: 25px;
     outline: none;
     font-size: 15px;
-    background-image: linear-gradient(to right, rgb(181, 107, 241), rgb(78, 22, 151));
+    background-color: rgb(17, 84, 184);
     color: white
 }
 #enviar{
-    background-image: linear-gradient(to right, rgb(149, 109, 223), rgb(30, 53, 87));
+    background-color: rgb(17, 84, 184);
     width: 100%;
     border: none;/*tirar a borda do botão enviar*/
     padding: 15px;
@@ -85,6 +118,23 @@ color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 #enviar:hover{
-    background-image: linear-gradient(to right, rgb(204, 170, 243), rgb(192, 120, 235));
+    background-color: rgb(108, 155, 224);
     /*Qdo passar o mouse por cima do botão enviar, irá aplicar azul um pouco mais escuro*/
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px ;
+    margin: 10px 0 0;
+}
+
+footer{
+ background-image: linear-gradient(rgb(8, 8, 8), rgb(10, 86, 138));
+ text-align: center;
+ padding: 10px 0;
+ 
+}
+#logo1{
+    border-radius: 15px;
+    width: 80px;
+    height: 80px;
 }

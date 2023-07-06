@@ -21,15 +21,20 @@ header{
             text-align: center;
             top: 32%;
             left: 40%;
-            transform: translate(-120%, -320%);
+            transform: translate(-100%, -320%);
             font-size: 65px;
             text-shadow: 5px;
 
         }
-        a{
+        .navlist{
+            display: flexbox;
+            padding-left: 120px;
+            margin-top: -50px;
+            transform: translate(75%, 60%);
+        }
+        .navlist a{
             color:rgb(255, 255, 255);
             font-size: 32px;
-            transform: translate(90%, -10%);
             font-family: Arial, Helvetica, sans-serif;
         }
         body{
@@ -45,26 +50,25 @@ header{
             margin: auto;
         }
         form{
-            margin: 40px 0; /*margem superior a inferior a 40*/
+            margin: 40px 0; 
         }
-        form label, form p{/*Vamos replicar a mesma configutação do form label para o parágrafo, por isso, o uso da vírgula */
+        form label, form p{
     
             display: block;
             font-size: 24px;
-            margin: 0 0 10px;/* 10px para baixo*/
-            color:#FFFFFF;
+            margin: 0 0 10px;
+            color:#ffffff;
         }
         .input-padrao{
             display: block;
-            margin: 0 0 20;/* 20px para baixo*/
-            padding: 10px 25px;/*10px pra cima e pra baixo
-                                              e 25px para os lados*/
-            width: 55%; /*largura dos meus inputs*/
+            margin: 0 0 20;
+            padding: 10px 25px;
+            width: 55%;
             border-radius: 25px;
-            color:#FFFFFF;
+            color:#000000;
         }
         .checkbox{
-            margin: 20px 0;/*20px para cima e p/ baixo*/
+            margin: 20px 0;
         }
         select{
             border:none;

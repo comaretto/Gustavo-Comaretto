@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prova Regimental</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="header.css">
-</head>
-<body>
-    <header class="cab">
-        <div>
-            <img src= comaretto.png class="logo">
-            <h1> Livraria Comaretto's</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="/">Esporte: FUTEBOL</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
-        <div class="conteiner">
-            <input type="checkbox" name="hamb" id="imenu" class="conteiner_btn">
-            <label for="imenu">
-                <img src= menu.png class="menu">
-                <span class="cab_menu conteiner_img"></span>
-            </label>
-                <ul class="lista_menu">
-                    <li class="lista_menu_tit">Livros</li>
-                    <br>
-                    <li class="lista_menu_item">Gibis</li>
-                    <br>
-                    <li class="lista_menu_item">Mangás</li>
-                    <br>
-                    <li class="lista_menu_item">Bonecos</li>
-                    <br>
-                    <li class="lista_menu_item">Jornais</li>
-                    <br>
-                    <li class="lista_menu_item">Revistas</li>
-                    <br>
-                </ul>
-        </div>
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Esportes</a></li>
+          <li><a href="#">Suporte</a></li>
+          <li><a href="#">Configurações</a></li>
+          <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-       
+      <br><br>
+      <h1><u>Como funciona o Futebol ?</u></h1>
+      <br>
+      <p>-O jogo tem duração de 90 minutos, dividido em dois tempos de 45 minutos e com um intervalo de 15 minutos entre eles.</p>
+      <br><br>
+      <p>-Cada um dos dois times jogadores tem 11 jogadores em campos.</p>
+      <br><br>
+      <p>-O objetivo do jogo é colocar a bola na rede do adversário, marcando gol. O time que marcar mais gols no período de jogo, será o vencedor.</p>
+      <br><br>
+      <p>-Em caso de empate, é feita uma prorrogação de 30 minutos, divididas em duas partes de 15 minutos.
+         Caso o empate se mantenha, a disputa pode ir para os pênaltis (que é uma tentativa de chute direto ao gol, tendo somente o goleiro como defesa).</p>
+      <br><br>
+      <p>-O jogo tem um árbitro e dois assistentes, responsáveis por supervisionar a partida e os jogadores.</p>
+      <br><br>
+      <p>-Com exceção do goleiro, é proibido tocar com as mãos na bola. São permitidos somente toques com os pés e troco.</p>
+      <br><br>
+      <p>-Quando a bola sai pela linha de fundo pode ser cobrado um escanteio ou tiro-de-meta. Se o último jogador com a bola estava se defendendo,
+         trata-se de um escanteio. Se o último jogador com a bola estava atacando, é um tiro-de meta.</p>
+      <br><br>
+      <p>-O impedimento é marcado quando um gol ou uma tentativa de gol é realizada por um jogador que estava na área adversária sem, pelo menos,
+         dois jogadores do time oponente entre ele e a linha de fundo.</p>
+      <br><br>
+      <p>-As faltas podem ser punidas com cartão amarelo e cartão vermelho. O amarelo simboliza uma advertência (ao receber dois cartões amarelos,
+         o atleta é expulso) e o vermelho determina expulsão direta do jogador.</p>
+      
+     
     </main>
-    <footer>
-        <p>Site criado por &copy; Gustavo Comaretto</p>
-    </footer>
-</body>
+    <footer>  <p class="copyright">&copy; Copyright -- Gustavo Comaretto</p></footer>
+    <script src="mobile-navbar.js"></script>
+  </body>
 </html>

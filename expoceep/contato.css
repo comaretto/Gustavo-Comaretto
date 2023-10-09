@@ -1,0 +1,137 @@
+
+header{
+    background-color: #212F70;
+        padding: 10px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    
+    #logo{
+        align-items: center;
+        height: 70px;
+        width: 70px;
+        align-self: flex-start;
+    }
+    
+        .titulo-principal{
+            color: rgb(250, 250, 250);
+            position: absolute;
+            text-align: center;
+            top: 32%;
+            left: 40%;
+            transform: translate(-100%, -320%);
+            font-size: 65px;
+            text-shadow: 5px;
+
+        }
+        .navlist{
+            display: flexbox;
+            padding-left: 120px;
+            margin-top: -50px;
+            transform: translate(75%, 60%);
+        }
+        .navlist a{
+            color:rgb(255, 255, 255);
+            font-size: 32px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: #89B9E2;
+        }
+  
+        img{
+            height: 150px;
+            width: 150px;
+        }
+        main{
+            width: 940px;
+            margin: 0;
+        }
+        form{
+            margin: 40px 0; 
+        }
+        form label, form p{
+    
+            display: block;
+            font-size: 24px;
+            margin: 0 0 10px;
+            color:#ffffff;
+        }
+        .input-padrao{
+            display: block;
+            margin: 0 0 20;
+            padding: 10px 25px;
+            width: 55%;
+            border-radius: 25px;
+            color:#000000;
+            align-self: center;
+            top: 40%;
+        }
+        .checkbox{
+            margin: 20px 0;
+        }
+        select{
+            border:none;
+            padding: 8px;
+            border-radius: 25px;
+            outline: none;
+            font-size: 15px;
+            background: rgb(9, 106, 252);
+            color: rgb(255, 255, 255)
+        }
+        .enviar{
+            width: 40%;
+            padding: 15px 0;
+            background: rgb(9, 106, 252);
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 18px;
+            border: none;
+            border-radius: 25px;
+            transition: 1s all;
+            cursor: pointer;
+        }
+        .copyright{
+            color: #FFFFFF;
+            font-size: 13px ;
+            margin: 10px 0 0;
+        }
+    
+        footer{
+         background-image: linear-gradient(rgb(8, 8, 8), rgb(10, 86, 138));
+         text-align: center;
+         padding: 10px 0;
+         
+        }
+        #logo1{
+            border-radius: 15px;
+            width: 100px;
+            height: 100px;
+        }
+        #usuario{
+            border-radius: 10px;
+            align-items: 'center';
+            align-self: end;
+            border: 20px;
+            border-bottom: 20px;
+            width: 50px;
+            height: 50px;
+        }
+        #imagem1{
+            height: 450px;
+            width: 1910px;
+            align-items: center;
+        }
+        #fogo{
+            height: 30px;
+            width: 30px;
+        }
+        h2{
+            font-family: jomhuia;
+        }
+        row{
+            display: flex;
+            gap: 10px;
+        }

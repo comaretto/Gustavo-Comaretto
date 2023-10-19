@@ -1,0 +1,133 @@
+body{
+    background-color: #dadada;
+}
+header{
+    background-image: #212F70;
+    color: #212F70;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+#logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    align-items: 'center';
+    border: 20px;
+    border-bottom: 20px;
+}
+.titulo-principal{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 32%;
+    left: 40%;
+    transform: translate(-160%, -470%);
+    font-size: 45px;
+    text-shadow: 5px;
+}
+.navlist{
+    display: flexbox;
+    padding-left: 120px;
+    margin-top: -50px;
+    transform: translate(75%, 60%);
+}
+.navlist a{
+    color:rgb(255, 255, 255);
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    color:rgb(245, 245, 245);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 25px;
+    width: 30%;
+}
+
+fieldset{
+    border: 3px solid rgb(17, 84, 184);
+}
+
+legend{
+    border: 1px solid  rgb(17, 84, 184);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(17, 84, 184);
+    border-radius: 8px;
+}
+
+.inputBox{
+    position:relative
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelinput{  
+position: absolute; 
+top: 0px;
+left: 0px;
+pointer-events: none;
+transition: 5px;
+}
+
+
+.inputUser:focus ~ .labelinput, 
+.inputUser:valid ~ .labelinput{ 
+top: -20px;
+font-size: 20px;
+color: rgb(255, 255, 255);
+}
+#data_nascimento{
+    border:none;
+    padding: 8px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 15px;
+    background-color: rgb(17, 84, 184);
+    color: white
+}
+#enviar{
+    background-color: rgb(17, 84, 184);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color:rgb(245, 245, 245);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#enviar:hover{
+    background-color: rgb(108, 155, 224);
+    
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px ;
+    margin: 10px 0 0;
+}
+
+footer{
+ background-image: linear-gradient(rgb(8, 8, 8), rgb(10, 86, 138));
+ text-align: center;
+ padding: 10px 0;
+ 
+}
+#logo1{
+    border-radius: 15px;
+    width: 80px;
+    height: 80px;
+}

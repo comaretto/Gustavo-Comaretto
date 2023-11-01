@@ -9,23 +9,22 @@
 
         <h1>Trabalho de Front-end</h1>
         <br>
+        <div>
        <p>informe idade
         <input type="number" name="txtidade" id="txtidade">
        </p>
 
-        <h2>Sexo</h2>
-        <p>
+       <p>Sexo:
+
             <input type="radio" id="mas" name="rsex" checked>
             <label for="mas">Masculino</label>
-            <br>
 
             <input type="radio" id="fem" name="rsex"></input>
             <label for="fem">Feminino</label>
+
         </p>
-        <p>
-            <input type="button" value="vereficar" onclick="vereficar()"></p>
+            <p><input type="button" value="verificar" onclick="verificar()"></p>
           </div>
-        </p>
         <div id="res"></div>
         <div id="imagem"></div>
     
@@ -34,7 +33,35 @@
 
     <script>
         const idade = document.getElementById('txtIdade').value;
-        const masculino = document
+        const masculino = document.getElementById('mas').checked;
+        const feminino = document.getElementById('fem').checked;
+        const res = document.getElementById('res');
+        const imagem = document.getElementById('imagem');
+        let mensagem = '';
+        let backgroundColor = 'brown';
+        let imagemSrc = '';
+
+        if (masculino) {
+            if (idade < 18) {
+                mensagem = `Você é um menino e tem ${idade} anos.`;
+                backgroundColor = 'lightblue';
+                imagemSrc = 'morty.png';
+
+             } else  if (idade >= 18 && idade < 65) {
+                mensagem = `Você é um homem e tem ${idade} anos.`;
+                backgroundColor = 'royalblue';
+                imagemSrc = 'paidomorty.png'
+            
+            }  else if (idade <65) {
+                mensagem = `Você é um idoso e tem ${idade} anos.`;
+                backgroundColor = 'darkblue';
+                imagemSrc = 'rick.png'
+             }
+        }
+
+        res.innerHTML = mensagem;
+        imagem.innerHTML = `<img src=${imageSrc}" alt="${mensagem}" style=${backgroundColor.document.body.style.backgroundColor = backgroundColor}>`;
+
     </script>
     
 </body>
